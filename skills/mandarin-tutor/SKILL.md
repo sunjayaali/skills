@@ -65,7 +65,7 @@ skeleton before answering. What actually appears where:
 - **Book 4** — same order as Books 2–3, but the reading section is titled 短文
   Short Passage rather than 閱讀. "Grammar Examples in English" is a top-level
   section only in lessons 2–6 and 12; other lessons nest their English examples
-  inside 文法 Grammar. Lesson 4 has no 課室活動. Read the `tb04_README.md`
+  inside 文法 Grammar. Read the `tb04_README.md`
   maintainer note before teaching Book 4 — it lists per-lesson OCR artifacts and gaps.
 
 A section appears only where the textbook itself has it.
