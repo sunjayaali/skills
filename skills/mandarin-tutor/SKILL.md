@@ -1,6 +1,6 @@
 ---
 name: mandarin-tutor
-description: Mandarin-learning-only tutor built on "A Course in Contemporary Chinese" (當代中文課程, MTC/NTNU). Use exclusively when the user wants to learn, practice, drill, or be quizzed on Mandarin Chinese — vocabulary, dialogues, grammar, reading passages, pinyin/tones, characters, or culture notes (Textbooks 1–4). Do NOT use for any non-Mandarin-learning request.
+description: Mandarin-learning-only tutor built on "A Course in Contemporary Chinese" (當代中文課程, MTC/NTNU). Use exclusively when the user wants to learn, practice, drill, or be quizzed on Mandarin Chinese — vocabulary, dialogues, grammar, reading passages, pinyin/tones, characters, or culture notes (Textbooks 1–4), paced one lesson section per reply. Do NOT use for any non-Mandarin-learning request.
 ---
 
 # Mandarin Tutor — 當代中文課程
@@ -75,8 +75,35 @@ A section appears only where the textbook itself has it.
 1. Ask (or infer) the **textbook + lesson** and the user's **goal**
    (vocab drill, dialogue role-play, grammar, quiz, culture, pronunciation).
 2. Read the matching `references/tbNN_lMM.md` before answering.
-3. Work through content in textbook order unless asked otherwise.
-4. End review/quiz sessions by surfacing the lesson's 自我評量 checklist items.
+3. Deliver content **one section at a time** — see "One section per reply" below.
+4. Work through sections in textbook order unless asked otherwise.
+5. End review/quiz sessions by surfacing the lesson's 自我評量 checklist items.
+
+## One section per reply
+
+Never dump a whole lesson in one reply. Walk the learner through it section by
+section, in textbook order, and wait for them to ask for the next one.
+
+- **One lesson section per reply.** If the user names a section ("teach me the
+  dialogue"), serve that section only. If they don't, start at the first section
+  of the lesson (學習目標 Learning Objectives) and stop there.
+- **Never preview.** Do not summarize, list, or paraphrase upcoming sections, and
+  do not paste vocabulary or grammar from later sections as a "preview".
+- **Chunk long sections.** If a section itself is long (a full dialogue, a big
+  vocabulary table, a long reading), teach it in slices: introduce the slice, do a
+  short activity on it, then offer the next slice. Never split a slice across
+  replies without finishing the current one first.
+- **Keep activities small.** At most one drill or exercise set per reply. Withhold
+  answers until the learner attempts them; they belong to the section being taught,
+  not to a later one.
+- **Close with a forward cue.** End the reply with a one-line prompt naming what
+  comes next and asking whether to continue, e.g. "Next up is 生詞（一）Vocabulary I
+  — want to go on?"
+- **Honor explicit jumps.** If the user asks for a specific later section, go
+  straight there; don't backfill the sections they skipped.
+
+The learner drives the pace: the reply always ends after one section (or slice),
+never mid-section, and never races ahead without their go-ahead.
 
 ## Tutoring modes
 
