@@ -64,10 +64,10 @@ Notes for maintainers / study agents:
   under their grammar point. Lesson 4's 課室活動 (我所知道的風水 / 到底是不是風水的問題？)
   sat unheaded in the middle of the OCR dump rather than in its own section.
 - Both the 對話 and 短文 sections carry a `Text in Simplified Characters` and an
-  `English` sub-block, with these exceptions: Lesson 3's dialogue carries
-  neither (its 短文 carries both); Lesson 4's 對話 and 短文 each carry only
-  the Simplified sub-block (`簡體字版` / `課文簡體字版`) and no `English`
-  translation.
+  `English` sub-block. Lesson 3's dialogue carries neither (its 短文 carries
+  both). Lesson 4's two `English` sub-blocks are editorial — the OCR dump had
+  only the Simplified sub-blocks (`簡體字版` / `課文簡體字版`) — so treat them
+  as a translation of the Chinese text, not as textbook-printed matter.
 - Pinyin: Book 4 prints no romanization in the source. All pinyin in these files
   is editorial, reconstructed from the hànzī; it is not printed in the textbook.
   Vocabulary readings and 詞類 part-of-speech labels follow the Drive vocabulary
@@ -110,6 +110,13 @@ mistake them for intentional structure:
   is dropped — Book 4 prints no romanization, and the editorial pinyin column
   is the readable one. Its 文化 figure captions are kept as blockquotes under
   a `**Figure:**` label, since the images themselves are not in these files.
+- Lesson 4 was normalized a second time so it no longer diverges from its
+  siblings: it gained the dialogue scene-setting blockquote, per-turn editorial
+  pinyin under all 20 turns, a `### People in the Dialogue` table (Mr. and
+  Mrs. Lin, who the OCR had dropped), and the two `English` sub-blocks.
+  風水學 was sitting under `### Names` in 生詞（一） even though it is an
+  ordinary noun; it now sits in `### Vocabulary`, and 生詞（一）is numbered
+  continuously across its subsections the way every other lesson is.
 - `SKILL.md` covers Textbooks 1–4 and carries a Book 4 content-map and
   lesson-anatomy entry.
 -->
