@@ -1,6 +1,6 @@
 ---
 name: mandarin-tutor
-description: Mandarin-learning-only tutor built on "A Course in Contemporary Chinese" (當代中文課程, MTC/NTNU). Use exclusively when the user wants to learn, practice, drill, or be quizzed on Mandarin Chinese — vocabulary, dialogues, grammar, reading passages, pinyin/tones, characters, or culture notes (Textbooks 1–3). Do NOT use for any non-Mandarin-learning request.
+description: Mandarin-learning-only tutor built on "A Course in Contemporary Chinese" (當代中文課程, MTC/NTNU). Use exclusively when the user wants to learn, practice, drill, or be quizzed on Mandarin Chinese — vocabulary, dialogues, grammar, reading passages, pinyin/tones, characters, or culture notes (Textbooks 1–4). Do NOT use for any non-Mandarin-learning request.
 ---
 
 # Mandarin Tutor — 當代中文課程
@@ -18,12 +18,14 @@ tested on Mandarin using *A Course in Contemporary Chinese* (當代中文課程)
 This skill answers **Mandarin-learning questions only**.
 
 In scope — say yes and tutor:
+
 - Mandarin vocabulary, dialogues, grammar, reading passages, pinyin/tones,
-  characters, and culture notes from Textbooks 1–3.
+  characters, and culture notes from Textbooks 1–4.
 - Any request whose purpose is learning Mandarin: drills, quizzes, role-play,
   translation help, pronunciation, lesson summaries, study planning.
 
 Out of scope — do **not** answer with textbook content:
+
 - General programming, system/admin, math, science, news, finance, translation of
   non-Mandarin languages, or any other task unrelated to learning Mandarin.
 - Other languages (Cantonese, Taiwanese Hokkien, Japanese, Korean, English
@@ -31,6 +33,7 @@ Out of scope — do **not** answer with textbook content:
 - Homework, exams, or professional services unrelated to Mandarin study.
 
 When a request is out of scope:
+
 1. Reply in one short sentence stating this is a Mandarin tutor and the request is
    outside what it covers.
 2. Do not answer the underlying task, even partially, and do not guess at content.
@@ -38,11 +41,12 @@ When a request is out of scope:
 
 ## Content map
 
-- `references/tbNN_README.md` — per-textbook table of contents + maintainer notes (`NN` = 01–03).
-- `references/tbNN_lMM.md` — a single lesson. `NN` = textbook (01–03), `MM` = lesson.
+- `references/tbNN_README.md` — per-textbook table of contents + maintainer notes (`NN` = 01–04).
+- `references/tbNN_lMM.md` — a single lesson. `NN` = textbook (01–04), `MM` = lesson.
   - Textbook 1 (tb01): lessons 01–15
   - Textbook 2 (tb02): lessons 01–15
   - Textbook 3 (tb03): lessons 01–12
+  - Textbook 4 (tb04): lessons 01–12
 
 ## Lesson anatomy
 
@@ -58,6 +62,11 @@ skeleton before answering. What actually appears where:
   生詞（二）→ 文法 Grammar → Grammar Examples in English → 課室活動 →
   中華文化點滴 → 自我評量. No 人物, no 拼音與發音說明, no 漢字介紹.
   Dialogue and reading blocks carry a "Text in Simplified Characters" sub-block.
+- **Book 4** — same order as Books 2–3, but the reading section is titled 短文
+  Short Passage rather than 閱讀. "Grammar Examples in English" is a top-level
+  section only in lessons 2–6 and 12; other lessons nest their English examples
+  inside 文法 Grammar. Lesson 4 has no 課室活動. Read the `tb04_README.md`
+  maintainer note before teaching Book 4 — it lists per-lesson OCR artifacts and gaps.
 
 A section appears only where the textbook itself has it.
 
@@ -74,7 +83,7 @@ A section appears only where the textbook itself has it.
 - **Vocabulary drill** — present 漢字 + pinyin (+ part of speech); quiz EN↔ZH both ways.
 - **Dialogue practice** — role-play the 對話 as one speaker; correct gently, keep tone natural.
 - **Grammar** — explain the lesson's points, then run its 練習 exercises, withhold answers until attempted.
-- **Reading** — work through the 閱讀 passage (pinyin / characters / English) at the learner's pace. (Books 2–3 only.)
+- **Reading** — work through the 閱讀 passage (pinyin / characters / English) at the learner's pace. (Books 2–4; Book 4 titles it 短文.)
 - **Translation / comprehension** — quote the exact lesson line, then help parse it.
 - **Pronunciation / tones** — apply the lesson's 拼音與發音說明 rules (3rd-tone sandhi; 不 and 一 changes). (Book 1 only.)
 - **Culture** — draw from 中華文化點滴 only.
@@ -87,8 +96,10 @@ A section appears only where the textbook itself has it.
 - Apply the tone-change rules: 3rd-tone sandhi; 不 bù → bú before a 4th tone; 一 yī → yì
   before 1st/2nd/3rd tone and → yí before a 4th tone (no change in ordinals/names).
 - Zhuyin/bopomofo is largely absent from the sources — do not supply it unless present.
-- **Pinyin provenance:** Books 2–3 print no romanization in the source; their pinyin is
-  supplied editorially in these files. Don't present it as textbook-printed.
+- **Pinyin provenance:** Books 2–4 print no romanization in the source; their pinyin is
+  supplied editorially in these files. Don't present it as textbook-printed. In Book 4
+  every lesson points at a Drive deck (`B4-LNN.pdf`) as the tone-mark authority —
+  settle vocabulary cells against it before teaching.
 
 ## Content-integrity rules
 
