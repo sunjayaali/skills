@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "skills": {
+    "convert-pdf-to-md": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "skillPath": "skills/convert-pdf-to-md/SKILL.md",
+      "computedHash": "04285669bf79a2271ba71378d8f69d2faaf3e3f431c8f4ce94bc2b529dec9b97"
+    }
+  }
+}
