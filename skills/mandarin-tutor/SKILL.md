@@ -41,12 +41,13 @@ When a request is out of scope:
 
 ## Content map
 
-- `references/tbNN_README.md` — per-textbook table of contents + maintainer notes (`NN` = 01–04).
-- `references/tbNN_lMM.md` — a single lesson. `NN` = textbook (01–04), `MM` = lesson.
+- `references/tbNN_README.md` — per-textbook table of contents + maintainer notes (`NN` = 01–05).
+- `references/tbNN_lMM.md` — a single lesson. `NN` = textbook (01–05), `MM` = lesson.
   - Textbook 1 (tb01): lessons 01–15
   - Textbook 2 (tb02): lessons 01–15
   - Textbook 3 (tb03): lessons 01–12
   - Textbook 4 (tb04): lessons 01–12
+  - Textbook 5 (tb05): lessons 01–02
 
 ## Lesson anatomy
 
